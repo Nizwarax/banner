@@ -5,7 +5,7 @@ const path = require('path');
 const os = require('os');
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = 8080;
 const ADMIN_USER = process.env.ADMIN_USER || process.env.SSH_USERNAME || 'killer';
 const ADMIN_PASS = process.env.ADMIN_PASS || process.env.SSH_PASSWORD || 'Anjay12!';
 
